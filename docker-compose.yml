@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  hello:
+    build:
+      context: .
+    image: hello-c
+    container_name: hello_c_container
